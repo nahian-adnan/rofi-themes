@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+##########################################################################################################														 
+#
+#	 Copyright (C) Nahian Adnan (Github : @nahian-adnan)  <https://github.com/nahian-adnan>
+#
+#    Credits : Aditya Shakya (Github : @adi1090x)
+#    Credits : Mahmoud Mohamed (Github : @00xWolf)
+#
+##########################################################################################################
+
+DIR="$HOME/.config/bspwm"
+
+rofi -no-lazy-grab -show window -theme $DIR/rofi/themes/window.rasi

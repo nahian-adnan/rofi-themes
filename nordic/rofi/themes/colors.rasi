@@ -1,0 +1,16 @@
+/* 	
+
+	Copyright (C) Nahian Adnan (Github : @nahian-adnan)  <https://github.com/nahian-adnan>
+    Credits : Mahmoud Mohamed (Github : @00xWolf)								 
+
+*/
+
+* {
+background:			#2E3440;
+foreground:			#D8DEE9;
+selected:			#81A1C1;
+background-alt:		#B48EAD;
+urgent:				#BF616A;
+active:				#A3BE8C;
+off:				#BF616A;
+}

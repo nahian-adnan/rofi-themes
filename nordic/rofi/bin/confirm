@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+##########################################################################################################														 
+#
+#	 Copyright (C) Nahian Adnan (Github : @nahian-adnan)  <https://github.com/nahian-adnan>
+#
+#    Credits : Aditya Shakya (Github : @adi1090x)
+#    Credits : Mahmoud Mohamed (Github : @00xWolf)
+#
+##########################################################################################################
+
+rofi -dmenu\
+     -i\
+     -no-fixed-num-lines\
+     -p "Are You Sure? : "\
+     -theme ~/.config/bspwm/rofi/themes/confirm.rasi

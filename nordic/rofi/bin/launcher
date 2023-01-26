@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+##########################################################################################################														 
+##
+#	 Copyright (C) Nahian Adnan (Github : @nahian-adnan)  <https://github.com/nahian-adnan>
+#
+#    Credits : Aditya Shakya (Github : @adi1090x)
+#    Credits : Mahmoud Mohamed (Github : @00xWolf)
+#
+##########################################################################################################
+
+DIR="$HOME/.config/bspwm"
+
+rofi \
+	-show drun \
+	-modi run,drun,ssh \
+	-no-lazy-grab \
+	-scroll-method 0 \
+	-drun-match-fields all \
+	-drun-display-format "{name}" \
+	-no-drun-show-actions \
+	-terminal alacritty \
+	-kb-cancel Alt-F1 \
+	-theme "$DIR"/rofi/themes/launcher.rasi
